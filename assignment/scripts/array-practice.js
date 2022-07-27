@@ -43,7 +43,6 @@ console.log('My final example of a favorite food is:', favoriteFoods[4])
 //      instead of the exact index number of the last item
 
 
-
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
 
