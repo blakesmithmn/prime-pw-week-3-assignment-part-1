@@ -118,3 +118,4 @@ console.log(foodString);
 
 const favoriteThings = favoriteFoods.concat(animalArray);
 console.log(favoriteThings);
+
