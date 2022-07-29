@@ -105,7 +105,10 @@ console.log('Favorite foods in reverse order', reversedFoods);
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
+let foodString = favoriteFoods.toString();
+console.log(foodString);
 
+// found the right function thing but i'm unsure on how to add in "and" between?
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
