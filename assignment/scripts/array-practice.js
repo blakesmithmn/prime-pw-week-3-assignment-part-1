@@ -42,6 +42,8 @@ console.log('My final example of a favorite food is:', favoriteFoods[4])
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
 
+const lastItem = animalArray[animalArray.length - 1];
+console.log(lastItem);
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -53,6 +55,7 @@ console.log('Added an animal to end,', animalArray);
 // 4.a. TODO: Add a new food at the end of your array & log the array
 favoriteFoods.push('sushi');
 console.log('I forgot I like:', favoriteFoods[5]);
+console.log(favoriteFoods);
 
 
 // Example: Remove the last animal by using Array.pop
@@ -95,13 +98,20 @@ console.log('Favorite Food Tier list:', favoriteFoods);
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
+reversedFoods = favoriteFoods.reverse();
+console.log('Favorite foods in reverse order', reversedFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+
+
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+const favoriteThings = favoriteFoods.concat(animalArray);
+console.log(favoriteThings);
